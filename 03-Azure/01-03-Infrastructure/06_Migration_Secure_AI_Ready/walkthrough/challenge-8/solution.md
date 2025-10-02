@@ -49,9 +49,9 @@ In this task, we will integrate the Azure OpenAI Service with a simple web appli
 
 ### **Task 4: Security Validation - Integration with Defender for cloud**
 
-**Step 1: ** Enable Defender for Cloud for AI services (same subscription as AOAI)
+**Step 1**:  Enable Defender for Cloud for AI services (same subscription as AOAI)
 
-**Goal: **Allow Defender for Cloud to receive AI safety signals from Azure OpenAI.
+**Goal:** Allow Defender for Cloud to receive AI safety signals from Azure OpenAI.
 
    1. Go to Microsoft Defender for Cloud → Environment settings → select the same subscription where your Azure OpenAI resource lives.
    
@@ -65,7 +65,7 @@ Save.
 
 **Step 2:** Wire your Web App to the Azure OpenAI API (not “model inference”) and test
 
-****Goal: **** Ensure the app calls the Azure OpenAI API endpoint and has the required config, then provoke a safe test alert.
+**Goal:** Ensure the app calls the Azure OpenAI API endpoint and has the required config, then provoke a safe test alert.
 
    1: In the Azure OpenAI resource:
    
@@ -89,7 +89,7 @@ Save.
    
 ****Step 3:** **Turn on Guardrails: Prompt Shields (Block) + Content Safety****
  
-**Goal: ** block jailbreak/prompt-injection attempts and filter unsafe content for inputs/outputs.
+**Goal:**  block jailbreak/prompt-injection attempts and filter unsafe content for inputs/outputs.
 
    1. In Azure AI Foundry → your Project → Guardrails + controls.
 
